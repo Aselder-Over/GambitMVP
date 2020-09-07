@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3F5A7825AD8F384E98C295 /* Pods_GambitMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CD11447FB794A6C1BC9563 /* Pods_GambitMVP.framework */; };
+		AB0C03CE25063B4D00872F4A /* BasketPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C03CD25063B4D00872F4A /* BasketPresentable.swift */; };
 		AB518CCB24FFC7CC002B0028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CCA24FFC7CC002B0028 /* AppDelegate.swift */; };
 		AB518CCD24FFC7CC002B0028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CCC24FFC7CC002B0028 /* SceneDelegate.swift */; };
-		AB518CCF24FFC7CC002B0028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CCE24FFC7CC002B0028 /* ViewController.swift */; };
 		AB518CD224FFC7CC002B0028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB518CD024FFC7CC002B0028 /* Main.storyboard */; };
 		AB518CD424FFC7CD002B0028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB518CD324FFC7CD002B0028 /* Assets.xcassets */; };
 		AB518CD724FFC7CD002B0028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB518CD524FFC7CD002B0028 /* LaunchScreen.storyboard */; };
+		AB518CDF24FFC8F1002B0028 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CDE24FFC8F1002B0028 /* MenuItem.swift */; };
+		AB518CE124FFE952002B0028 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CE024FFE952002B0028 /* MenuVC.swift */; };
+		AB518CE324FFEAE9002B0028 /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CE224FFEAE9002B0028 /* DishCell.swift */; };
+		AB518CE724FFEB70002B0028 /* Presentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CE624FFEB70002B0028 /* Presentor.swift */; };
+		AB518CEB2500E357002B0028 /* MenuViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CEA2500E357002B0028 /* MenuViewProtocol.swift */; };
+		AB518CED25024926002B0028 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CEC25024926002B0028 /* UserDefaults.swift */; };
+		AB518CEF25062FA8002B0028 /* Basket.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB518CEE25062FA8002B0028 /* Basket.xib */; };
+		AB518CF2250633B1002B0028 /* BasketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CF1250633B1002B0028 /* BasketVC.swift */; };
+		AB518CF425063586002B0028 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB518CF325063586002B0028 /* Observer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BED6F83CA75D4A76F2E4917 /* Pods-GambitMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GambitMVP.debug.xcconfig"; path = "Target Support Files/Pods-GambitMVP/Pods-GambitMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		83CD11447FB794A6C1BC9563 /* Pods_GambitMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GambitMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9096C3B934641DACD0B2B5FF /* Pods-GambitMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GambitMVP.release.xcconfig"; path = "Target Support Files/Pods-GambitMVP/Pods-GambitMVP.release.xcconfig"; sourceTree = "<group>"; };
+		AB0C03CD25063B4D00872F4A /* BasketPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketPresentable.swift; sourceTree = "<group>"; };
 		AB518CC724FFC7CC002B0028 /* GambitMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GambitMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB518CCA24FFC7CC002B0028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB518CCC24FFC7CC002B0028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB518CCE24FFC7CC002B0028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB518CD124FFC7CC002B0028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB518CD324FFC7CD002B0028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB518CD624FFC7CD002B0028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB518CD824FFC7CD002B0028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB518CDE24FFC8F1002B0028 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		AB518CE024FFE952002B0028 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		AB518CE224FFEAE9002B0028 /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
+		AB518CE624FFEB70002B0028 /* Presentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentor.swift; sourceTree = "<group>"; };
+		AB518CEA2500E357002B0028 /* MenuViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewProtocol.swift; sourceTree = "<group>"; };
+		AB518CEC25024926002B0028 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		AB518CEE25062FA8002B0028 /* Basket.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Basket.xib; sourceTree = "<group>"; };
+		AB518CF1250633B1002B0028 /* BasketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketVC.swift; sourceTree = "<group>"; };
+		AB518CF325063586002B0028 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3F5A7825AD8F384E98C295 /* Pods_GambitMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C087B67ABF8660B2994423F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BED6F83CA75D4A76F2E4917 /* Pods-GambitMVP.debug.xcconfig */,
+				9096C3B934641DACD0B2B5FF /* Pods-GambitMVP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB518CBE24FFC7CC002B0028 = {
 			isa = PBXGroup;
 			children = (
 				AB518CC924FFC7CC002B0028 /* GambitMVP */,
 				AB518CC824FFC7CC002B0028 /* Products */,
+				1C087B67ABF8660B2994423F /* Pods */,
+				C4F967D32B0AA3A08BE2BAB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +92,78 @@
 			children = (
 				AB518CCA24FFC7CC002B0028 /* AppDelegate.swift */,
 				AB518CCC24FFC7CC002B0028 /* SceneDelegate.swift */,
-				AB518CCE24FFC7CC002B0028 /* ViewController.swift */,
-				AB518CD024FFC7CC002B0028 /* Main.storyboard */,
+				ABE77F3025068958000564CD /* Singltone */,
+				AB518CF02506335A002B0028 /* Basket */,
+				AB518CE924FFEB7F002B0028 /* MenuDishModule */,
 				AB518CD324FFC7CD002B0028 /* Assets.xcassets */,
 				AB518CD524FFC7CD002B0028 /* LaunchScreen.storyboard */,
 				AB518CD824FFC7CD002B0028 /* Info.plist */,
 			);
 			path = GambitMVP;
+			sourceTree = "<group>";
+		};
+		AB518CE424FFEB3F002B0028 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB518CDE24FFC8F1002B0028 /* MenuItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB518CE524FFEB48002B0028 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB518CD024FFC7CC002B0028 /* Main.storyboard */,
+				AB518CE024FFE952002B0028 /* MenuVC.swift */,
+				AB518CEA2500E357002B0028 /* MenuViewProtocol.swift */,
+				AB518CE224FFEAE9002B0028 /* DishCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB518CE824FFEB76002B0028 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				AB518CE624FFEB70002B0028 /* Presentor.swift */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		AB518CE924FFEB7F002B0028 /* MenuDishModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB518CE424FFEB3F002B0028 /* Model */,
+				AB518CE524FFEB48002B0028 /* View */,
+				AB518CE824FFEB76002B0028 /* Presentor */,
+			);
+			path = MenuDishModule;
+			sourceTree = "<group>";
+		};
+		AB518CF02506335A002B0028 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				AB518CEE25062FA8002B0028 /* Basket.xib */,
+				AB518CF1250633B1002B0028 /* BasketVC.swift */,
+				AB0C03CD25063B4D00872F4A /* BasketPresentable.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		ABE77F3025068958000564CD /* Singltone */ = {
+			isa = PBXGroup;
+			children = (
+				AB518CEC25024926002B0028 /* UserDefaults.swift */,
+				AB518CF325063586002B0028 /* Observer.swift */,
+			);
+			path = Singltone;
+			sourceTree = "<group>";
+		};
+		C4F967D32B0AA3A08BE2BAB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83CD11447FB794A6C1BC9563 /* Pods_GambitMVP.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB518CDB24FFC7CD002B0028 /* Build configuration list for PBXNativeTarget "GambitMVP" */;
 			buildPhases = (
+				1117A195F16D13B0ED7137CB /* [CP] Check Pods Manifest.lock */,
 				AB518CC324FFC7CC002B0028 /* Sources */,
 				AB518CC424FFC7CC002B0028 /* Frameworks */,
 				AB518CC524FFC7CC002B0028 /* Resources */,
+				6A50D362B2AA1BFB45E4CE19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB518CD724FFC7CD002B0028 /* LaunchScreen.storyboard in Resources */,
+				AB518CEF25062FA8002B0028 /* Basket.xib in Resources */,
 				AB518CD424FFC7CD002B0028 /* Assets.xcassets in Resources */,
 				AB518CD224FFC7CC002B0028 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +235,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1117A195F16D13B0ED7137CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GambitMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A50D362B2AA1BFB45E4CE19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GambitMVP/Pods-GambitMVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GambitMVP/Pods-GambitMVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GambitMVP/Pods-GambitMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB518CC324FFC7CC002B0028 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB518CCF24FFC7CC002B0028 /* ViewController.swift in Sources */,
+				AB0C03CE25063B4D00872F4A /* BasketPresentable.swift in Sources */,
+				AB518CE724FFEB70002B0028 /* Presentor.swift in Sources */,
+				AB518CF425063586002B0028 /* Observer.swift in Sources */,
+				AB518CDF24FFC8F1002B0028 /* MenuItem.swift in Sources */,
+				AB518CE124FFE952002B0028 /* MenuVC.swift in Sources */,
+				AB518CE324FFEAE9002B0028 /* DishCell.swift in Sources */,
+				AB518CF2250633B1002B0028 /* BasketVC.swift in Sources */,
+				AB518CED25024926002B0028 /* UserDefaults.swift in Sources */,
+				AB518CEB2500E357002B0028 /* MenuViewProtocol.swift in Sources */,
 				AB518CCB24FFC7CC002B0028 /* AppDelegate.swift in Sources */,
 				AB518CCD24FFC7CC002B0028 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +434,7 @@
 		};
 		AB518CDC24FFC7CD002B0028 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BED6F83CA75D4A76F2E4917 /* Pods-GambitMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +452,7 @@
 		};
 		AB518CDD24FFC7CD002B0028 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9096C3B934641DACD0B2B5FF /* Pods-GambitMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
